@@ -1,0 +1,29 @@
+{
+    "parent": "S:\\",
+    "files": [
+        {
+            "type": ".pdf",
+            "size": "918 KB",
+            "name": "bsccsit-first-two-years454.pdf"
+        },
+        {
+            "type": ".pdf",
+            "size": "1 MB",
+            "name": "inturnkaryabidhi2078645.pdf"
+        },
+        {
+            "type": ".docx",
+            "size": "223 KB",
+            "name": "LAB.docx"
+        }
+    ],
+    "folders": [
+        "$RECYCLE.BIN",
+        "BIT",
+        "college",
+        "Crypto",
+        "DSA",
+        "IT",
+        "PY-S"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "share.lc",
+  "version": "1.0.0",
+  "description": "Software that allows you to share any type of file on your local network.",
+  "main": "./backend/index.js",
+  "type": "module",
+  "scripts": {
+    "this": "node ./backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tarunregmi/share.lc.git"
+  },
+  "author": "Tarun Regmi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tarunregmi/share.lc/issues"
+  },
+  "homepage": "https://github.com/tarunregmi/share.lc#readme"
+}
