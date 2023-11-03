@@ -57,8 +57,8 @@ tbody a::before, tbody span::before{
 }
 .folder::before{--url: url("../icons/folder.png")}
 .pdf::before{--url: url("../icons/pdf.png")}
-.zip::before{--url: url("../icons/zip-1.png")}
-.docx::before{--url: url("../icons/docx-1.png")}
+.zip::before{--url: url("../icons/zip.png")}
+.docx::before{--url: url("../icons/docx.png")}
 tbody tr:hover {
     outline: 1px solid var(--bdr-clr);
 }
