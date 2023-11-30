@@ -1,4 +1,7 @@
 # share.lc
+
+![Thubnail](https://repository-images.githubusercontent.com/625076636/1baca05f-6b19-4189-ad17-3ca4b7b0ae56)
+
 Software that allows you to share any type of file on your local network.
 
 ## To run this project follow following steps:
