@@ -1,20 +1,24 @@
 {
   "name": "share.lc",
-  "version": "1.0.0",
-  "description": "Software that allows you to share any type of file on your local network.",
-  "main": "./backend/index.js",
+  "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "this": "node ./backend/index.js"
-  },
+  "license": "MIT",
+  "author": "Tarun Regmi",
+  "description": "Software that allows you to share any type of file on your local network.",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/tarunregmi/share.lc.git"
   },
-  "author": "Tarun Regmi",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tarunregmi/share.lc/issues"
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "start:dev": "nodemon src/index.ts",
+    "start:loc": "node --env-file=.env dist/index.js",
+    "start:pro": "node dist/index.js"
   },
-  "homepage": "https://github.com/tarunregmi/share.lc#readme"
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
 }
