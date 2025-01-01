@@ -22,7 +22,7 @@ export class Server extends ServerRouter {
 
       const url = new URL(`http://${this.#host}:${this.#port}${request.url}`);
 
-      if (request.url?.split('/')[1] === this.#fsBase) this.serveFileSystem(request, response);
+      if (request.url?.split('/')[1] === this.#fsBase) this.serveFileSystem(response, url.pathname);
       else return this.serveStaticFolder(response, url.pathname);
     });
   }

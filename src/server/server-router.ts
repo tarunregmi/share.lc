@@ -65,5 +65,5 @@ export class ServerRouter {
     await this.#endFile(response, requestedPath);
   }
 
-  protected serveFileSystem(_request: IncomingMessage, _response: ServerResponse<IncomingMessage>) {}
+  protected serveFileSystem(_response: ServerResponse<IncomingMessage>, _pathname: string) {}
 }
